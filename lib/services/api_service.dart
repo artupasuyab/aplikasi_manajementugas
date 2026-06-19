@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 
 class ApiService {
 
-  final String baseUrl = "http://192.168.1.25:8000/api";
+  final String baseUrl = "http://192.168.1.108:8000/api";
 
   // ================= LOGIN =================
   Future<dynamic> login(
